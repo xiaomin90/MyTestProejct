@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Robot</string>
+    <string name="hello_robot">Hello Robot!</string>
+    <string name="app_id">56e7bd2c</string>
+    <string name="bugly_id">900018501</string>
+    <string name="turing_key">321e73bbcd7ccf281eadebd6a544f7a8</string>
+    <string name="turing_username">zheng.jiang@flyingwings.cn</string>
+    <string name="baidu_appkey">FkMDPlXTqFAHslOEsQtagZHa</string>
+    <string name="baidu_secretkey">kyAWV14PMiEdAsNvGqz7G1PAfXMUmrtq</string>
+    <string name="baidu_scope">music_media_basic,music_search_basic,music_musicdata_basic</string>
+      <string name="invite_acitivity_name">Meeting Invite Example</string>
+</resources>

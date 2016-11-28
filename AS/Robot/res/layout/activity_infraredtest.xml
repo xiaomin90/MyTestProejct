@@ -1,0 +1,216 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <EditText 
+        android:id="@+id/infraredtest_edt_ieeeaddr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="IEEEADDR"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/infraredtest_edt_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="type" />
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/infraredtest_edt_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="index" />
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/infraredtest_edt_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="key" />
+        
+         <EditText
+            android:layout_weight="1"
+            android:id="@+id/infraredtest_edt_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="data" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/infraredtest_btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+
+        <Button
+            android:id="@+id/infraredtest_btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/infraredtest_btn_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/infraredtest_btn_infraredadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="InfraredAdd" />
+
+        <Button
+            android:id="@+id/infraredtest_btn_infrareddel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="InfraredDel" />
+
+        <Button
+            android:id="@+id/infraredtest_btn_infraredupd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="InfraredUpd" />
+
+        <Button
+            android:id="@+id/infraredtest_btn_infraredqueryall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="InfraredQueryAll" />
+
+        <Button
+            android:id="@+id/infraredtest_btn_infraredqueryone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="InfraredQueryOne" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/infraredtest_btn_rcadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RcAdd" />
+
+        <Button
+            android:id="@+id/infraredtest_btn_rcdel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RcDel" />
+
+        <Button
+            android:id="@+id/infraredtest_btn_rcupd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RcUpd" />
+
+        <Button
+            android:id="@+id/infraredtest_btn_rcqueryall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RcQueryAll" />
+
+        <Button
+            android:id="@+id/infraredtest_btn_rcqueryone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="RcQueryOne" />
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/infraredtest_btn_sendkey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RcSendKey" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/infraredtest_btn_aron"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RcArOn" />
+
+        <Button
+            android:id="@+id/infraredtest_btn_aroff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RcArOff" 
+            android:layout_marginEnd="10dip"/>
+        
+
+        <EditText
+            android:id="@+id/infraredtest_edt_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="key value"
+            android:text="25" />
+
+        <Button
+            android:id="@+id/infraredtest_btn_artmpinc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RcArT+" />
+        
+        <Button
+            android:id="@+id/infraredtest_btn_artmpdec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RcArT-" />
+        
+         <Button
+            android:id="@+id/infraredtest_btn_armode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RcArMode" />
+	</LinearLayout>
+    
+</LinearLayout>
